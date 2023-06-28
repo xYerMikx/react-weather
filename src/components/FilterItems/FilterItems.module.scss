@@ -1,0 +1,20 @@
+.filters {
+  display: flex;
+  gap: 38px;
+  background-color: #24343d;
+  padding: 20px 30px;
+  border-radius: 1rem;
+  align-items: center;
+
+  & > h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  & > .select {
+    background-color: #1f2d34;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+}

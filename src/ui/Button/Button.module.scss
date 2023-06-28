@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.1rem;
+  padding: 20px 35px;
+  border-radius: 20px;
+  transition: filter 0.1s linear;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+}

@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  & > li > .link {
+    color: white;
+    font-size: 15px;
+    transition: filter 0.1s linear;
+
+    &:hover {
+      filter: brightness(85%);
+    }
+  }
+}
